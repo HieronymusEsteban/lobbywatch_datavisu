@@ -1,0 +1,17 @@
+[
+  {
+    "parteiname": "svp",
+    "color": "blue",
+    "interessenbindungen_mean": 12
+  },
+  {
+    "parteiname": "cvp",
+    "color": "green",
+    "interessenbindungen_mean": 100
+  },
+  {
+    "parteiname": "bdp",
+    "color": "orange",
+    "interessenbindungen_mean": 1
+  }
+]
