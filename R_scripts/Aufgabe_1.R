@@ -188,6 +188,9 @@ stripchart(Interest_Frame$Interessenbindungen~Interest_Frame$Partei)
 
 barplot(height = Interest_Frame$Interessenbindungen, width = 1, legend.text = Interest_Frame$Partei)
 
-colors = rainbow(16)
+#colors = rainbow(16)
+
+# I only use 14 different colors even though there are 16 party ID's. This is because two party ID's are "empty" (ID's) i.e. they have not been attributed an party. 
+colors = c("royalblue4", "darkolivegreen3", "red3", "green3", "darkgreen", "gold", "orange", "black", "darkorange3", "turquoise", "orange3", "red", "orangered", "royalblue")
 
 barplot(height = Interest_Frame$Interessenbindungen, width = 1, space = 0.5, col = colors, names.arg = Interest_Frame$Partei, main = "Durchschnittliche Anzahl Interessenbindungen pro Parlamentarier")
